@@ -1,0 +1,106 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6b8e23;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.lyrics {
+    flex: 3;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+aside {
+    flex: 1;
+}
+
+aside video {
+    width: 100%;
+}
+
+/* Lyrics styling */
+.love, .strong-love, .determined-love {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.romantic, .future, .future-vision, .support, .commitment {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8em;
+    color: #ff69b4;
+}
+
+.sweet, .beauty, .dreams {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    color: #4caf50;
+}
+
+.surprise, .reassurance {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #ffb6c1;
+}
+
+.young-love, .children, .dancing, .embrace, .freedom, .whisper, .faith, .angel, .perfection, .realization {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #1976d2;
+}
+
+.uncertainty, .undeserving {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #ffa000;
+    font-style: italic;
+}
+
+.determination, .hearing {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.intimacy, .possession, .connection, .nostalgia, .odds {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #1e90ff;
+}
